@@ -39,7 +39,7 @@ app.post('/createorder', async (req, res) => {
 
 
 app.get('/', (req, res) => {
-    return res.json({success:false,message:"Welcome to Razorpay backend"});
+    return res.json({success:true,message:"Welcome to Razorpay backend"});
 })
 
 
